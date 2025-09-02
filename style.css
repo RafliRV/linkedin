@@ -6,35 +6,46 @@ body{
     margin-left: 0.25rem;
     border-radius: 10px;
     background-color: white;
+    padding-bottom: 0.1px;
+    border: solid 0.1px rgba(128, 128, 128, 0.4);
 }
 .container img{
     width: 100%;
     border-radius: 7.5px 10px 0px 0px;
 }
-.container .profile img#user{
+.container .profil img#user{
     width: 110px;
     margin: -5rem 0 0.5rem 1.5rem;
     border-radius: 100%;
     outline: 4px solid white;
 }
-.container .profile{
+.container .profil{
     margin-right: 2rem;
     margin-top: 1.25rem;
     display: flex;
     justify-content: space-between;
 }
-.container .profile img#link{
+.container .profil img#link{
     border-radius: 0;
     width:20px;
 }
 .container .user{
     margin-left: 1.5rem;
+    margin-top: 0.4rem;
     display: flex;
+}
+.container .user:hover{
+    background-color: rgba(128, 128, 128, 0.2);
+    max-width: fit-content;
 }
 .container .user #username{
     font-family: sans-serif;
-    font-weight: 545;
+    font-weight: 600;
     font-size: 22.5;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .container .user #verified{
     margin-left: 0.4rem;
@@ -44,4 +55,142 @@ body{
     width: 18;
     fill: none;
     stroke: currentColor;
+}
+.container .deskripsi label{
+    font-size: 15;
+    font-family: sans-serif;
+    margin-left: 1.5rem;
+    margin-top: 0;
+    font-weight: 100;
+}
+.container .button #top{
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+    border-radius: 15px;
+    border-width: 0;
+    background-color: rgb(226, 231, 236);
+    display: flex;
+}
+.container .button #top img{
+    width: 18;
+    margin-left: 3px;
+    border-radius: 0;
+}
+.container .button #top p{
+    font-size: 11.5;
+    font-family: sans-serif;
+    color: rgb(58, 127, 197);
+    margin-left: 2px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 3px;
+}
+.container .tentang div{
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+}
+.container .tentang a,label{
+    color: rgb(117, 112, 112);
+    font-size: 14;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.container .tentang a:hover{
+    color: rgb(40,121,201);
+    text-decoration: underline;
+}
+#kontak,#mastercard{
+    font-size: 14;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(10,102,194);
+}
+#kontak:hover,#mastercard:hover{
+    text-decoration: underline;
+}
+.next{
+    margin-left: 0.25rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    width: 13;
+}
+.container .pengikut{
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+}
+.container .pengikut #jumlah{
+    color: #6C6C6C;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container .pengikut #pengikut{
+    color: #6C6C6C;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+.bottom_button{
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+}
+#ikuti{
+    display: flex;
+    border-radius: 15px;
+    background-color: rgb(10,102,194);
+    border: none;
+    padding: 4px 15px;
+}
+#ikuti:hover{
+    background-color: rgb(7, 82, 156);
+}
+#ikuti label{
+    color: white;
+    font-weight: 600;
+    font-size: 16;
+    font-family: sans-serif;
+    margin-left: 2.5px;
+}
+.plus{
+    margin-top: 4px;
+    color: white;
+    font-size: 15;
+}
+#pesan{
+    margin-left: 0.5rem;
+    display: flex;
+    border-radius: 15px;
+    background-color: white;
+    border: solid 0.5px rgb(10,102,194);
+    padding: 3px 12.5px;
+}
+#pesan:hover{
+    border: solid 2px rgb(10,102,194);
+    background-color: rgba(128, 128, 128, 0.2);
+    font-weight: bold;
+}
+#pesan label{
+    color: rgb(10,102,194);
+    font-size: 16;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+.pesan{
+    margin-top: 6px;
+    color: rgb(10,102,194);
+    font-size: 12;
+}
+#more{
+    border-radius: 15px;
+    border: solid 1px black;
+    background-color: white;
+    margin-left: 0.5rem;
+    padding: 4px 7px;
+}
+#more:hover{
+    border: solid 2px black;
 }
